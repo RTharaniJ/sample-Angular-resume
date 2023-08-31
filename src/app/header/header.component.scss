@@ -1,0 +1,38 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+.top-section{
+	
+	text-align: center;
+	padding: 20px;
+	display: flex;
+}
+
+.bkc{
+	background-color:#6ae7e7;
+	height: 50px;
+	width: 100%;
+	margin-top: -35px;
+}
+.profile{
+	width: 150px;
+	border-radius: 50%;
+}
+.p1{
+	color: rgb(2, 2, 2);
+	font-size: 60px;
+	font-weight: bold;
+	margin: 0px;
+	margin-top: 10px;
+	font-family: 'Bitter', serif;
+}
+.p1 span{
+	font-weight: 100;
+	color: #c7c7c7;
+}
+.p2{
+	font-size: 20px;
+	color: #282626;
+	margin: 0px;
+	margin-top: 10px;
+}

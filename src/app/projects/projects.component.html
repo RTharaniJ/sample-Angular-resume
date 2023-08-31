@@ -1,0 +1,10 @@
+<h2 class="head">Projects</h2>
+<ul class="project">
+    <li *ngFor="let item of projects">
+        <div><h5>Title:<span>{{item.title}}</span></h5></div>
+      <div><span>Technologies:{{item.Technologies}}</span></div> 
+      <div><a href="https://www.freecodecamp.org/fcc73bebe8d-4619-4233-b418-dc211e838e8d"><span>FreeCodeCamp:{{item.FreeCodeCamp}}</span></a></div> 
+      <div><a href="https://github.com/RTharaniJ"><span>Github:{{item.Github}}</span></a></div> 
+      <div><a href="https://codepen.io/RTharaniJ"><span>codepen:{{item.codepen}}</span></a></div> 
+    </li>
+</ul>

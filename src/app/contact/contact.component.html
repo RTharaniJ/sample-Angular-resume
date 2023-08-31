@@ -1,0 +1,11 @@
+<p class="head">contact</p>
+
+<ul class="contact">
+    <li *ngFor="let item of contact">
+        <div><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;<a href="tel:Number">{{ item.mobile }}</a></div>
+        <div><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;<a href="mailto:abc@gmail.com">{{item.Email}}</a> </div>
+        <div><i class="fa fa-home" aria-hidden="true"></i><span>&nbsp;&nbsp;{{ item.Locations }}</span></div>
+        <div><i class="fa fa-linkedin-square" aria-hidden="true"></i><a href="https://www.linkedin.com/in/tharani-r-830a1765/"><span>&nbsp;&nbsp;{{ item.LinkedIn }}</span></a></div>
+    </li>
+</ul>
+<br>

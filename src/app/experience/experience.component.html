@@ -1,0 +1,10 @@
+<h2 class="head">Experience</h2>
+<ul class="education">
+    <li *ngFor="let item of experience" class="p-4">
+        <div><h5>{{item.Position}}</h5></div>
+        <div>{{item.duration}}</div>
+        <div>{{item.location}}</div>  
+        <div>{{item.company}}</div>  
+        <div>{{item.description}}</div>        
+    </li>
+</ul>

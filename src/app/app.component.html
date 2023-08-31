@@ -1,0 +1,35 @@
+<div class="main">
+    <app-header [name]="resume?.name" [title]="resume?.title"></app-header>
+    <div class="col-div-4">
+        <div class="content-box" style="padding-left: 50px;">
+
+            <app-contact [contact]="resume?.contact"></app-contact>
+
+            <app-skills [skills]="resume?.skills"></app-skills>
+
+            <app-goals [goals]="resume?.goals"></app-goals>
+
+            <app-languages [languages]="resume?.languages"></app-languages>
+
+            <app-hobbies [hobbies]="resume?.hobbies"></app-hobbies>
+
+        </div>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="col-div-12">
+        <div class="content-box">
+
+            <app-objective [objective]="resume?.objective"></app-objective>
+
+            <app-projects [projects]="resume?.projects"></app-projects>
+
+            <app-experience [experience]="resume?.experience"></app-experience>
+
+            <app-education [education]="resume?.education"></app-education>
+        </div>
+
+    </div>
+<h5>By Tharani Rathnasamy</h5>
+</div>
